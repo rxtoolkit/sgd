@@ -1,6 +1,6 @@
 {
   "name": "@rxtk/sgd",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "📊 RxJS implementation of stochastic gradient descent (SGD) (classifier).",
   "main": "dist/index.js",
   "repository": "https://github.com/rxtoolkit/sgd.git",
