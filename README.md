@@ -62,7 +62,7 @@ classifier$.subscribe(console.log);
 // }
 ```
 
-Each instance of the classifier is just a simple JavaScript object with a few keys, most importantly the model parameters. Internally, SGD classifiers are actually very simple. Bottlenose's original implementation was perhaps only around 50 lines of code. They just calculate an intercept value and attach a weight to each feature column.
+> 💡 **SGD explained**: Each instance of the classifier is just a simple JavaScript object with a few keys, most importantly the model parameters. Internally, SGD classifiers are actually very simple. The original implementation of this operator was perhaps only around 50 lines of code. They just calculate an intercept value and attach a weight to each feature column. That's all there is to it!
 
 ### `predict`
 The easiest way to use a trained classifier is to store its parameters for later use. Taking the classifier from the prior example, we can plugin its fitted parameters to make new predictions like this:
