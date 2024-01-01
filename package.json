@@ -1,13 +1,13 @@
 {
-  "name": "@rxtk/PACKAGE_NAME",
-  "version": "1.0.0",
-  "description": "DESCRIPTION",
+  "name": "@rxtk/sgd",
+  "version": "0.0.1",
+  "description": "📊 RxJS implementation of stochastic gradient descent (SGD) (classifier).",
   "main": "dist/index.js",
-  "repository": "https://github.com/rxtoolkit/PACKAGE_NAME.git",
+  "repository": "https://github.com/rxtoolkit/sgd.git",
   "author": "Buccaneer LLC <opensource@buccaneer.ai>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rxtoolkit/PACKAGE_NAME/issues"
+    "url": "https://github.com/rxtoolkit/sgd/issues"
   },
   "keywords": [],
   "directories": {
