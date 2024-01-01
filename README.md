@@ -5,6 +5,11 @@
 Stochastic Gradient Descent (SGD) classifiers are a fairly simple and commonly used machine learning algorithm. They scale well and train quickly under most conditions since they can be trained incrementally on each new item.
 
 ## Getting started
+
+```bash
+npm i @rxtk/sgd
+```
+
 ```bash
 yarn add @rxtk/sgd
 ```
